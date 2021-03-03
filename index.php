@@ -1,6 +1,6 @@
 <?php
 $name = 'Fxbite';
 
-echo 'Hello, {$name}';
+echo "Hello, $name";
 
 ?>
