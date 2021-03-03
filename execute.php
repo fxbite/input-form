@@ -15,7 +15,7 @@ $user = "msklsjfnqbydjb";
 $pass = "d0788f073d46f029bd5ef53450d31329ef669b416d7b063182cbbbef0789c74d";
 $ssl = "require";
 
-$link = pg_connect('dbname='.$db.' host='.$host.' port='.$port.' user='.$user.' password='.$pass.' sslmode='.$ssl);
+$con = pg_connect('dbname='.$db.' host='.$host.' port='.$port.' user='.$user.' password='.$pass.' sslmode='.$ssl);
 
 if (!$con) {
     echo "Database connection failed.";
